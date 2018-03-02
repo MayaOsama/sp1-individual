@@ -1,0 +1,32 @@
+
+<table class="table">
+<tr>
+  <th>Name</th>
+   <th>Price</th>
+   <th>Created</th>
+   <th>Updated</th>
+   <th>Seller</th>
+   <th>Action</th>
+</tr>
+
+
+<tr *ngFor="let product of products">
+  <td>{{ product.name }}</td>
+   <td>{{product.price}}</td>
+   <td>{{product.createdAt}}</td>
+   <td>{{product.updatedAt}}</td>
+   <td>{{product.seller}}</td>
+   <td><button type="button" name="deleteProduct" (click)="deleteProduct(product)" >Delete</button> </td>
+   <td><button type="button" name="EditProduct" (click)="EditProduct(product,pname.value,pprice.value)">edit</button></td>
+   <form>newName<input #pname type="text" id="newName"></form>
+   <form>newPrice<input #pprice type="Number" id="newPrice"></form>
+
+ </tr>
+</table>
+
+<tr><form>product name<input #name type="text" id="name1"></form></tr>
+<tr><form>product price<input #price type="Number" id="price1"></form></tr>
+<tr><form>product seller<input #seller type="text" id="seller"></form></tr>
+<!-- <tr> <form><input #pdateCreated type="text" rows="1" cols="30" ></input></form> </tr> -->
+
+<td><button type="button" name="CreateProduct" (click)="CreateProduct(name.value,price.value,seller.value)">Create</button></td>

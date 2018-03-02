@@ -1,0 +1,4 @@
+{"_id":{"$oid":"5a977201cf76e6fa3819586b"},"ID":2.0,"name":"macbook","price":1000,"createdAt":{"$date":"2018-03-01T13:01:30.544Z"},"modifiedAt":{"$date":"2018-03-01T13:01:30.545Z"},"sellerName":"Raneem","updatedAt":{"$date":"2018-03-01T16:01:23.028Z"}}
+{"_id":{"$oid":"5a97d876f8190790a46157b6"},"ID":1.0,"name":"iPhone","price":1000.0,"createdAt":{"$date":"2018-03-01T13:01:50.647Z"},"modifiedAt":{"$date":"2018-03-01T13:01:50.647Z"},"sellerName":"Raneem"}
+{"_id":{"$oid":"5a97f8c864c1d5788b5007c6"},"name":"beats","price":300,"createdAt":{"$date":"2018-03-01T12:57:44.697Z"},"__v":0}
+{"_id":{"$oid":"5a97fc3864c1d5788b5007c8"},"name":"starbucks coffee beans","price":16,"createdAt":{"$date":"2018-03-01T13:12:24.984Z"},"__v":0}
