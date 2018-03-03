@@ -1,0 +1,6 @@
+{"_id":{"$oid":"5a98e61055336c850d6d6206"},"name":"blue laptop sleeve","price":450,"createdAt":"2/2/2018","seller":"palma","updatedAt":{"$date":"2018-03-02T08:16:57.364Z"}}
+{"_id":{"$oid":"5a98e63755336c850d6d6207"},"name":"headphones","price":"3500","createdAt":"2/2/2018","seller":"beats"}
+{"_id":{"$oid":"5a98e66955336c850d6d6208"},"name":"powerbank","price":"500","createdAt":"2/2/2018","seller":"Sony"}
+{"_id":{"$oid":"5a98e68355336c850d6d6209"},"name":"white chocolate","price":"50","createdAt":"2/2/2018","seller":"House of coco"}
+{"_id":{"$oid":"5a98e68b55336c850d6d620a"},"name":"milk chocolate","price":25,"createdAt":"2/2/2018","seller":"House of coco","updatedAt":{"$date":"2018-03-02T08:20:54.225Z"}}
+{"_id":{"$oid":"5a99b7d68d33d4591059467b"},"name":"pandora bracelets","price":2000,"createdAt":{"$date":"2018-03-02T20:45:10.517Z"},"__v":0}
